@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My website</title>
+		<link rel="stylesheet" href="style.css"/>
+
+	</head>
+
+	<body>
+		<h1>Hello i am Eugene Dzikunu</h1>
+
+		<h3>About me</h3>
+		<p>i am a <b>teacher</b> at Mat-Michael International School from <i>Dome</i></p>
+		<h3>Interests</h3>
+		<p>My interests include:</p>
+		<ul>
+			<li>Teaching</li>
+			<li>listening to musix</li>
+			<li>playing soccer</li>
+			<li>love to bet as well</li>
+
+		</ul>	
+		<img src="img\ghanaflag.png" weight="200px" height="100px" width="200px"  />
+
+		<p><a href="http://ispacegh.com/">taught by ispace</a></p>
+
+		<form name = "contactform" method = "post" action="send_form.php">
+			<input type="text" class="username" placeholder = "Enter Username"/>
+			<input type="text" class="password" placeholder = "Enter Password"/>
+			<input type="text" class="message" placeholder = "Enter a Message"/>
+			<input type="submit" value="Submit"/>
+
+		</form>
+
+		<h4 id = "number"></h4>
+		<button type = "button" onclick = "add()">Make 10 appear</button>
+
+		<script>
+
+			var name = 'James';
+			var num=10;
+
+		
+			document.getElementById("number").innerHTML = num;
+			function add() {
+				num=num+10;	
+
+			}
+
+
+
+			
+
+
+
+		</script>
+
+</html>

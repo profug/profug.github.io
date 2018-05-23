@@ -1,0 +1,20 @@
+body {
+	background: #e3e3e3;
+	margin: auto;
+	width: 600px;
+	margin-top: 100px;
+
+}
+h1 {
+	color: red;
+}
+h3 {
+	color: #FFFF00;
+	font-size: 20px;
+}
+li {
+	color: rgb(0, 128, 0);
+}
+p {
+	font-family: courier;
+}
